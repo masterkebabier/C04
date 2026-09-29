@@ -6,7 +6,7 @@
 /*   By: ajaunky <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 09:22:56 by ajaunky           #+#    #+#             */
-/*   Updated: 2026/09/29 09:37:57 by ajaunky          ###   ########.fr       */
+/*   Updated: 2026/09/29 15:08:19 by ajaunky          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_is_prime(int nb)
@@ -14,7 +14,7 @@ int	ft_is_prime(int nb)
 	int	i;
 
 	i = 2;
-	if (n == 0 || n == 1)
+	if (nb <= 1)
 		return (0);
 	while (i < nb)
 	{
