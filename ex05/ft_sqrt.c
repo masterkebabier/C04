@@ -6,7 +6,7 @@
 /*   By: ajaunky <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/25 12:43:27 by ajaunky           #+#    #+#             */
-/*   Updated: 2026/09/25 12:50:40 by ajaunky          ###   ########.fr       */
+/*   Updated: 2026/09/29 15:02:04 by ajaunky          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_sqrt(int nb)
@@ -16,14 +16,13 @@ int	ft_sqrt(int nb)
 	if (nb < 0)
 	{
 		return (0);
-
 	}
 	i = 0;
 	while (i * i <= nb)
 	{
-		if ( i * i == nb)
+		if (i * i == nb)
 			return (i);
 	}
 	i++;
-	return(0);
+	return (0);
 }
